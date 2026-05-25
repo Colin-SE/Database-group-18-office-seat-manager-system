@@ -1,6 +1,6 @@
 ﻿# Office Seat Manager
 
-Office Seat Manager is a JavaFX + JDBC + MySQL information system for managing office seats, employees, bookings and maintenance tickets.
+基于javafx ，mysql，maven构建的办公室作为管理系统
 
 ## Technology
 
@@ -9,14 +9,13 @@ Office Seat Manager is a JavaFX + JDBC + MySQL information system for managing o
 - JDBC
 - MySQL
 - Maven
-- No ORM framework is used
 
 ## Database setup
 
-1. Open MySQL.
-2. Run `database/schema.sql`.
-3. Run `database/seed.sql`.
-4. Edit `config/database.properties` and replace `your_password` with your MySQL password.
+1. 打开 MySQL.
+2. 运行`database/schema.sql`.
+3. 运行`database/seed.sql`.
+4. 编辑`config/database.properties` 并且将 `your_password` 部分替换成真实的mysql密码
 
 Example:
 
@@ -46,6 +45,4 @@ mvn javafx:run
 - View occupancy and department booking reports.
 - Review audit logs created by database triggers.
 
-## Assignment fit
 
-The project is a Java-based database information system. It uses a relational MySQL database with primary keys, foreign keys, unique constraints, check constraints, indexes, views and triggers. The JavaFX interface provides CRUD-style operations and reporting without using ORM or a complicated MVC framework.
