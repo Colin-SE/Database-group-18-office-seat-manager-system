@@ -1,6 +1,6 @@
 ﻿# Office Seat Manager
 
-基于javafx ，mysql，maven构建的办公室作为管理系统
+基于javafx ，mysql，maven构建的办公室座位管理系统
 
 ## Technology
 
@@ -29,20 +29,17 @@ db.password=123456
 
 From this folder:
 
-```powershell
+```程序运行入口
 mvn javafx:run
 ```
 
-## Main functions
+## Main functions主要功能
 
-- View all seats with building, floor, zone, type and equipment.
-- Search seats by seat code, zone or building.
-- Show available seats for today.
-- Create a seat booking with overlap checking.
-- View all booking records.
-- View and search employees.
-- Create maintenance tickets.
-- View occupancy and department booking reports.
-- Review audit logs created by database triggers.
 
+- 查询今日可用座位
+- 创建座位预订
+- 查看员工信息
+- 提交维护工单
+- 查看楼层占用率、部门预订统计和审计日志
+- 查看所有座位信息
 
