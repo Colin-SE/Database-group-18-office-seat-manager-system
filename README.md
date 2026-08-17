@@ -1,4 +1,5 @@
 ﻿# Office Seat Manager
+ This is a university assignment.
 
 基于javafx ，mysql，maven构建的办公室座位管理系统
 
